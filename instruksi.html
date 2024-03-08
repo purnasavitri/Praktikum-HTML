@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instruksi HTML</title>
+    <style>
+        table, th, td {
+            padding: 5px;
+            border: 1px solid black;
+        }
+        form {
+            margin: 5px 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        button {
+        margin: 0px 200px;
+      }
+    </style>
+</head>
+<body>
+    <!--Tag Judul dan Paragraf-->
+    <h1>Profil</h1>
+    <h2>Biodata Saya</h2>
+    <p>Saya adalah seorang mahasiswa Teknologi Informasi di Universitas Pendidikan Nasional. Saya juga merupakan anggota aktif dari organisasi Himpunan Mahasiswa Teknologi Informasi.</p>
+    <br>
+    <!--Hyperlink dan Gambar-->
+    
+    <img src="/img/Picture1.jpg" alt="Profil">
+    <p>Kunjungi saya melalui <a href="https://www.instagram.com/ga_psavitri/">Instagram</a></p>
+    <!--List-->
+    <h2>Hobi Saya</h2>
+    <ul>
+        <li>Membaca</li>
+        <li>Mendengarkan Musik</li>
+        <li>Menonton Film</li>
+        <li>Mempelajari Hal Baru</li>
+    </ul>
+    <h2>Riwayat Pendidikan</h2>
+    <ol>
+        <li>SD Negeri 5 Dalung</li>
+        <li>SMPN 10 Denpasar</li>
+        <li>SMAN 1 Kuta Utara</li>
+    </ol>
+    <!--Tabel-->
+    <table>
+        <tr>
+            <th>Mata Kuliah</th>
+            <th>Dosen</th>
+            <th>Jadwal</th>
+        </tr>
+        <tr>
+            <td>Sistem Pakar</td>
+            <td>Adie Wahyudi Oktavia Gama</td>
+            <td>Senin <br> 08:00 Wita - 10:30 Wita</td>
+        </tr>
+        <tr>
+            <td>Konfigurasi dan Administrasi Basis Data - Kelas A</td>
+            <td>Adie Wahyudi Oktavia Gama</td>
+            <td>Senin <br> 10:45 Wita - 14:05 Wita</td>
+        </tr>
+        <tr>
+            <td>Manajemen Layanan Teknologi Informasi</td>
+            <td>Yadhurani Dewi Amritha</td>
+            <td>Selasa <br> 08:00 Wita - 09:40 Wita</td>
+        </tr>
+        <tr>
+            <td>Internet of Things</td>
+            <td>I Wayan Aditya Suranata</td>
+            <td>Selasa <br> 09:55 Wita - 12:25 Wita</td>
+        </tr>
+        <tr>
+            <td>Manajemen Risiko Teknologi Informasi</td>
+            <td>Made Wira Putra Dananjaya</td>
+            <td>Selasa <br> 12:40 Wita - 15:10 Wita</td>
+        </tr>
+        <tr>
+            <td>Pemrograman Web - Kelas B</td>
+            <td>Made Wira Putra Dananjaya</td>
+            <td>Rabu <br> 10:00 Wita - 13:20 Wita</td>
+        </tr>
+        <tr>
+            <td>Keamanan Siber</td>
+            <td>I Wayan Aditya Suranata</td>
+            <td>Rabu <br> 13:35 Wita - 16:05 Wita</td>
+        </tr>
+    </table>
+    <!--Formulir-->
+    <h2>Formulir Feedback</h2>
+    <form action="" method="post">
+        <label for="name">Nama Lengkap:</label>
+        <input type="text" id="name" name="fullname" required><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="emailaddress" required><br>
+
+        <label for="phone">Nomor Telepon:</label>
+        <input type="text" id="phone" name="phonenumber" required><br>
+
+        <label for="message">Pesan:</label>
+        <textarea name="messagetext" id="message" rows="4" required></textarea> <br><br>
+
+        <button type="submit">Kirim</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum HTML</title>
+    <style>
+        body {
+            margin: 0px 200px;
+            padding: 7px;
+        }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+      }
+      td {
+        padding: 7px;
+      }
+      img {
+        margin: 0px 50px;
+        border: 1px solid black;
+        width: 200px;
+        height: 260px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 500px;
+      }
+      h1, h2 {
+        text-align: center;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Biodata Saya</h1>
+    <div class="container">
+      <img src="/img/Picture1.jpg" alt="Profil" />
+      <table>
+        <tr>
+          <td>Nama:</td>
+          <td>Gusti Ayu Purna Savitri</td>
+        </tr>
+        <tr>
+          <td>NIM:</td>
+          <td>42230034</td>
+        </tr>
+        <tr>
+          <td>Fakultas:</td>
+          <td>Teknik dan Informatika</td>
+        </tr>
+        <tr>
+          <td>Jurusan:</td>
+          <td>Teknologi Informasi</td>
+        </tr>
+        <tr>
+          <td>Angkatan:</td>
+          <td>2022</td>
+        </tr>
+      </table>
+    </div>
+    <h2>Tentang Saya</h2>
+    <p style="margin: 20px;">Saya adalah seorang mahasiswa Teknologi Informasi di Universitas Pendidikan Nasional. Saya juga merupakan anggota aktif dari organisasi Himpunan Mahasiswa Teknologi Informasi. Saya tertarik dalam mempelajari hal-hal baru terutama dalam bidang Teknologi Informasi. Saya adalah pribadi yang kreatif, teliti, dan memiliki kemampuan untuk bekerja dengan baik dalam tim. Saya selalu berusaha untuk memberikan yang terbaik dalam setiap tugas yang saya kerjakan dan siap untuk menghadapi tantangan baru yang datang.</p>
+
+    <h2>Riwayat Pendidikan</h2>
+    <table>
+      <tr>
+        <td>2016 - 2019</td>
+        <td>SMPN 10 Denpasar</td>
+      </tr>
+      <tr>
+        <td>2019 - 2022</td>
+        <td>SMAN 1 Kuta Utara</td>
+      </tr>
+      <tr>
+        <td>2022 - Sekarang</td>
+        <td>Universitas Pendidikan Nasional</td>
+      </tr>
+    </table>
+    <h2>Formulir Kontak</h2>
+    <form action="" method="post">
+      <label for="name">Nama Lengkap:</label>
+      <input type="text" id="name" name="fullname" required /><br />
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="emailaddress" required /><br />
+
+      <label for="phone">Nomor Telepon:</label>
+      <input type="text" id="phone" name="phonenumber" required /><br />
+
+      <label for="message">Pesan:</label>
+      <textarea name="messagetext" id="message" rows="4" required></textarea> <br /><br />
+
+      <button type="submit">Kirim</button>
+    </form><br><br>
+    <p>Kunjungi Saya melalui</p>
+    <a href="https://www.instagram.com/ga_psavitri/">Instagram</a><br>
+    <a href="https://twitter.com/aye_otg">X</a>
+  </body>
+</html>
